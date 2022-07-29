@@ -1,0 +1,60 @@
+<!-- modified from https://loginov-rocks.medium.com/how-to-make-a-web-app-for-your-own-bluetooth-low-energy-device-arduino-2af8d16fdbe8 -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Remote Robotic Arm Control</title>
+    <link href="./style.css" rel="stylesheet">
+    <!-- <link rel="manifest" href="manifest.json">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5"> -->
+</head>
+<body>
+    <div class="control-panel">
+        <div class="video-container">
+            <p>Camera 1</p>
+            <video autoplay="true" class="videoElement" id="camera1"></video>
+
+            <p>Camera 2</p>
+            <video autoplay="true" class="videoElement" id="camera1"></video>
+        </div>
+
+        <div class="range-slider-box">
+            <div class="slidecontainer" id="motor-1">
+                <p>Motor1</p>
+                <input type="range" min="0" max="180" value="90" class="slider" id="myRange1">
+                <p>Value: <span id="demo1"></span></p>
+            </div>
+            <div class="slidecontainer" id="motor-2">
+                <p>Motor2</p>
+                <input type="range" min="0" max="180" value="90" class="slider" id="myRange2">
+                <p>Value: <span id="demo2"></span></p>
+            </div>
+            <div class="slidecontainer" id="motor-3">
+                <p>Motor3</p>
+                <input type="range" min="0" max="180" value="90" class="slider" id="myRange3">
+                <p>Value: <span id="demo3"></span></p>
+            </div>
+            <div class="slidecontainer" id="motor-4">
+                <p>Motor4</p>
+                <input type="range" min="0" max="180" value="90" class="slider" id="myRange4">
+                <p>Value: <span id="demo4"></span></p>
+            </div>
+            <div class="slidecontainer" id="motor-5">
+                <p>Motor5</p>
+                <input type="range" min="0" max="180" value="90" class="slider" id="myRange5">
+                <p>Value: <span id="demo5"></span></p>
+            </div>
+            <div class="slidecontainer" id="motor-6">
+                <p>Motor6</p>
+                <input type="range" min="0" max="180" value="90" class="slider" id="myRange6">
+                <p>Value: <span id="demo6"></span></p>
+            </div>
+        </div>
+    </div>
+
+
+
+<script src="main.js"></script>
+<!-- <script src="companion.js" data-service-worker="sw.js"></script> -->
+
+</body>
+</html>
