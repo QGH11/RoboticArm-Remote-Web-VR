@@ -1,13 +1,23 @@
-<!-- modified from https://loginov-rocks.medium.com/how-to-make-a-web-app-for-your-own-bluetooth-low-energy-device-arduino-2af8d16fdbe8 -->
 <!DOCTYPE html>
 <html>
 <head>
     <title>Remote Robotic Arm Control</title>
     <link href="./style.css" rel="stylesheet">
-    <!-- <link rel="manifest" href="manifest.json">
-    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5"> -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
 </head>
 <body>
+    <div class="blueTooth-Container">
+        <button id="connect" type="button">Connect</button>
+
+        <button id="disconnect" type="button">Disconnect</button>
+
+        <div id="terminal"></div>
+
+        <form id="send-form">
+            <input id="input" type="text">
+            <button type="submit">Send</button>
+        </form>
+    </div>
     <div class="control-panel">
         <div class="video-container">
             <p>Camera 1</p>
@@ -19,32 +29,32 @@
 
         <div class="range-slider-box">
             <div class="slidecontainer" id="motor-1">
-                <p>Motor1</p>
+                <p>Claw</p>
                 <input type="range" min="0" max="180" value="90" class="slider" id="myRange1">
                 <p>Value: <span id="demo1"></span></p>
             </div>
             <div class="slidecontainer" id="motor-2">
-                <p>Motor2</p>
+                <p>ClawRotation</p>
                 <input type="range" min="0" max="180" value="90" class="slider" id="myRange2">
                 <p>Value: <span id="demo2"></span></p>
             </div>
             <div class="slidecontainer" id="motor-3">
-                <p>Motor3</p>
+                <p>ClawUpDown</p>
                 <input type="range" min="0" max="180" value="90" class="slider" id="myRange3">
                 <p>Value: <span id="demo3"></span></p>
             </div>
             <div class="slidecontainer" id="motor-4">
-                <p>Motor4</p>
+                <p>Middle</p>
                 <input type="range" min="0" max="180" value="90" class="slider" id="myRange4">
                 <p>Value: <span id="demo4"></span></p>
             </div>
             <div class="slidecontainer" id="motor-5">
-                <p>Motor5</p>
+                <p>BottomUpDown</p>
                 <input type="range" min="0" max="180" value="90" class="slider" id="myRange5">
                 <p>Value: <span id="demo5"></span></p>
             </div>
             <div class="slidecontainer" id="motor-6">
-                <p>Motor6</p>
+                <p>BottomRotation</p>
                 <input type="range" min="0" max="180" value="90" class="slider" id="myRange6">
                 <p>Value: <span id="demo6"></span></p>
             </div>
