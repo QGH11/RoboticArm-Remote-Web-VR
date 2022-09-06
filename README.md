@@ -62,19 +62,19 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <li>
+    <!--<li>
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
+    </li>-->
+    <li><a href="#Functionality ">Functionality</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
+    <!--<li><a href="#contributing">Contributing</a></li>-->
     <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <!--<li><a href="#contact">Contact</a></li>-->
+    <!--<li><a href="#acknowledgments">Acknowledgments</a></li>-->
   </ol>
 </details>
 
@@ -83,6 +83,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+My intention is to find a little helper that can help me with some of my chore, so a robotic arm would perfectly fit in this position.
+
+This robotic arm can be controlled by website and VR remotely.
+
+Planning to make it automatically running in future.
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 
@@ -133,13 +138,15 @@ _Below is an example of how you can instruct your audience on installing and set
 -->
 
 
-<!-- USAGE EXAMPLES -->
-## Usage
+<!-- Functinoality  EXAMPLES -->
+## Functionality 
+Physcial: 
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Website Interface:
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+VR: 
 
+Adding Gif & Imgs...
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -155,6 +162,8 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [x] Website Interface
     - [x] Servo motor sliders
     - [x] Server connection (send serv motor data)
+- [x] Backend
+    - [x] Server (Python Flask)
 - [x] VR (Unity)
     - [x] Server Connection
     - [x] Motor sliders
@@ -206,7 +215,7 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 
 
 <!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
+<!--## Acknowledgments
 
 Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
@@ -219,7 +228,7 @@ Use this space to list resources you find helpful and would like to give credit 
 * [Font Awesome](https://fontawesome.com)
 * [React Icons](https://react-icons.github.io/react-icons/search)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>-->
 
 
 
