@@ -1,0 +1,39 @@
+from tokenize import Double
+from turtle import degrees
+import serial
+from flask import Flask, request
+from flask_cors import CORS
+from threading import Thread
+import functools
+import operator
+
+# # # set up connection with HC-06
+# ser = serial.Serial("COM9", 9600, timeout = 1) #Change your port name COM... and your baudrate
+
+# def ifRetrieveData(degreeForm):
+#    degreeList = []
+#    for degree in degreeForm.listvalues():
+#       degreeList.append(degree[0])
+#    degreeList = [int(x) for x in degreeList]
+#    print(degreeList)
+#    ser.write(degreeList)
+    
+#Set up Flask:
+app = Flask(__name__)
+
+#Set up Flask to bypass CORS:
+cors = CORS(app)
+
+#Create the receiver API POST endpoint:
+@app.route("/receiver", methods=["GET","POST"])
+def postME():
+   degreeForm = request.form
+   # thread = Thread(target= ifRetrieveData, args = [degreeForm])
+   # thread.daemon = True
+   # thread.start()
+   return degreeForm
+
+#Create the receiver API POST endpoint:
+
+if __name__ == "__main__": 
+   app.run()
