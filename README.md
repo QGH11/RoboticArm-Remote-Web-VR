@@ -147,15 +147,21 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
+- [x] Physcial Assembly
+    - [x] Robotic Arm
+    - [x] Arduino UNO
+    - [x] PCA9685
+    - [x] HC-06
+- [x] Website Interface
+    - [x] Servo motor sliders
+    - [x] Server connection (send serv motor data)
+- [x] VR (Unity)
+    - [x] Server Connection
+    - [x] Motor sliders
+    - [x] Forward Kinematics
+    - [ ] Inverse Kinematics
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/QGH11/RoboticArm-Remote-Web-VR/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
