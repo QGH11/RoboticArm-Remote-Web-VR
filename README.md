@@ -140,15 +140,18 @@ _Below is an example of how you can instruct your audience on installing and set
 
 <!-- Functinoality  EXAMPLES -->
 ## Functionality 
-Physcial: 
+Physcial: HC-06 Bluetooth Module, PCA9685 motor Drivers, Arduino
+![ce5c9d32c15d10716b19747d53a4df4](https://user-images.githubusercontent.com/76548491/192084181-6beee298-b026-4eff-8d9e-6ec9a37605b0.jpg)
 
-Website Interface:
 
-VR: 
+Website Interface: Motor Sliders + Server Connection!
+[image](https://user-images.githubusercontent.com/76548491/192082155-31fd2ea7-46df-4bce-a694-ab645c1a1528.png)
 
-Adding Gif & Imgs...
+VR: Motor Sliders + CAD Simulator
+![image](https://user-images.githubusercontent.com/76548491/192084377-cbe36dd4-5d88-474d-938b-ea99a5785707.png)
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- ROADMAP -->
